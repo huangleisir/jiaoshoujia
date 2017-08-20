@@ -1,0 +1,227 @@
+19:55:01,308 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+19:55:01,308 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+19:55:01,309 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Administrator/git/jiaoshoujia/target/classes/logback.xml]
+19:55:01,386 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+19:55:01,397 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@6:29 - no applicable action for [springProfile], current ElementPath  is [[configuration][springProfile]]
+19:55:01,397 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@7:45 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:48 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@11:32 - no applicable action for [springProfile], current ElementPath  is [[configuration][springProfile]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@12:45 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@13:48 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@16:35 - no applicable action for [springProfile], current ElementPath  is [[configuration][springProfile]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:45 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@18:48 - no applicable action for [property], current ElementPath  is [[configuration][springProfile][property]]
+19:55:01,398 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+19:55:01,401 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Console]
+19:55:01,404 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+19:55:01,460 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+19:55:01,464 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [appAllLog]
+19:55:01,474 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@760563749 - Archive files will be limited to [50 MB] each.
+19:55:01,479 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@760563749 - No compression will be used
+19:55:01,480 |-INFO in c.q.l.core.rolling.SizeAndTimeBasedRollingPolicy@760563749 - Will use the pattern logs/%d{yyyy/MM, aux}/appAllLog_%d{yyyy-MM-dd}.%i.log for the active file
+19:55:01,484 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@68837a77 - The date pattern is 'yyyy-MM-dd' from file name pattern 'logs/%d{yyyy/MM, aux}/appAllLog_%d{yyyy-MM-dd}.%i.log'.
+19:55:01,484 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@68837a77 - Roll-over at midnight.
+19:55:01,488 |-INFO in ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP@68837a77 - Setting initial period to Sun Aug 20 19:55:01 CST 2017
+19:55:01,491 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[appAllLog] - Active log file name: logs/2017/08/appAllLog_2017-08-20.0.log
+19:55:01,491 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[appAllLog] - File property is set to [null]
+19:55:01,492 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+19:55:01,492 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [apperror]
+19:55:01,493 |-INFO in ch.qos.logback.core.rolling.FixedWindowRollingPolicy@6be46e8f - Will use zip compression
+19:55:01,496 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[apperror] - No TriggeringPolicy was set for the RollingFileAppender named apperror
+19:55:01,496 |-WARN in ch.qos.logback.core.rolling.RollingFileAppender[apperror] - For more information, please visit http://logback.qos.ch/codes.html#rfa_no_tp
+19:55:01,496 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.jst] to DEBUG
+19:55:01,496 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.jst] to false
+19:55:01,496 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[com.jst]
+19:55:01,496 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[com.jst]
+19:55:01,496 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[com.jst]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[org.springframework]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[org.springframework]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[org.springframework]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.ibatis] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.ibatis] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[com.ibatis]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[com.ibatis]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.apache.ibatis] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.apache.ibatis] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[org.apache.ibatis]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[org.apache.ibatis]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [Java.sql.Connection] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [Java.sql.Connection] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[Java.sql.Connection]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[Java.sql.Connection]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [java.sql.Statement] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [java.sql.Statement] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[java.sql.Statement]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[java.sql.Statement]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [java.sql.PreparedStatement] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [java.sql.PreparedStatement] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[java.sql.PreparedStatement]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[java.sql.PreparedStatement]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [java.sql.ResultSet] to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [java.sql.ResultSet] to false
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[java.sql.ResultSet]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[java.sql.ResultSet]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [apperror] to Logger[ROOT]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Console] to Logger[ROOT]
+19:55:01,497 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [appAllLog] to Logger[ROOT]
+19:55:01,497 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+19:55:01,498 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@3567135c - Registering current configuration as safe fallback point
+
+2017-08-20 19:55:01.548[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+2017-08-20 19:55:01.551[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:host.name=PC-20160220FPSE
+2017-08-20 19:55:01.551[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.version=1.8.0_144
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.vendor=Oracle Corporation
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.home=D:\Program Files\Java\jdk1.8.0_144\jre
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] ontinuation\8.2.0.v20160908\jetty-continuation-8.2.0.v20160908.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-http\8.2.0.v20160908\jetty-http-8.2.0.v20160908.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-io\8.2.0.v20160908\jetty-io-8.2.0.v20160908.jar;C:\Users\Administrator\.m2\repository\org\eclipse\jetty\jetty-util\8.2.0.v20160908\jetty-util-8.2.0.v20160908.jar;C:\Users\Administrator\.m2\repository\com\rabbitmq\amqp-client\4.0.1\amqp-client-4.0.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\slf4j-api\1.7.22\slf4j-api-1.7.22.jar;C:\Users\Administrator\.m2\repository\com\github\pagehelper\pagehelper-spring-boot-starter\1.1.0\pagehelper-spring-boot-starter-1.1.0.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter\1.5.1.RELEASE\spring-boot-starter-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot\1.5.1.RELEASE\spring-boot-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\1.5.1.RELEASE\spring-boot-autoconfigure-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-logging\1.5.1.RELEASE\spring-boot-starter-logging-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-classic\1.2.1\logback-classic-1.2.1.jar;C:\Users\Administrator\.m2\repository\ch\qos\logback\logback-core\1.2.1\logback-core-1.2.1.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jul-to-slf4j\1.7.22\jul-to-slf4j-1.7.22.jar;C:\Users\Administrator\.m2\repository\org\slf4j\log4j-over-slf4j\1.7.22\log4j-over-slf4j-1.7.22.jar;C:\Users\Administrator\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Administrator\.m2\repository\com\github\pagehelper\pagehelper-spring-boot-autoconfigure\1.1.0\pagehelper-spring-boot-autoconfigure-1.1.0.jar;C:\Users\Administrator\.m2\repository\com\github\pagehelper\pagehelper\5.0.0\pagehelper-5.0.0.jar;C:\Users\Administrator\.m2\repository\com\github\jsqlparser\jsqlparser\0.9.5\jsqlparser-0.9.5.jar;C:\Users\Administrator\.m2\repository\com\alibaba\fastjson\1.2.2\fastjson-1.2.2.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-amqp\1.5.1.RELEASE\spring-boot-starter-amqp-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-messaging\4.3.6.RELEASE\spring-messaging-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-beans\4.3.6.RELEASE\spring-beans-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context\4.3.6.RELEASE\spring-context-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\amqp\spring-rabbit\1.7.0.RELEASE\spring-rabbit-1.7.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\com\rabbitmq\http-client\1.1.0.RELEASE\http-client-1.1.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\retry\spring-retry\1.2.0.RELEASE\spring-retry-1.2.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-tx\4.3.6.RELEASE\spring-tx-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\amqp\spring-amqp\1.7.0.RELEASE\spring-amqp-1.7.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-web\1.5.1.RELEASE\spring-boot-starter-web-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\hibernate\hibernate-validator\5.3.4.Final\hibernate-validator-5.3.4.Final.jar;C:\Users\Administrator\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\Administrator\.m2\repository\org\jboss\logging\jboss-logging\3.3.0.Final\jboss-logging-3.3.0.Final.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.6\jackson-databind-2.8.6.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.6\jackson-core-2.8.6.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-web\4.3.6.RELEASE\spring-web-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-webmvc\4.3.6.RELEASE\spring-webmvc-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-expression\4.3.6.RELEASE\spring-expression-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\1.5.1.RELEASE\spring-boot-starter-jdbc-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\tomcat-jdbc\8.5.11\tomcat-jdbc-8.5.11.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\tomcat-juli\8.5.11\tomcat-juli-8.5.11.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-jdbc\4.3.6.RELEASE\spring-jdbc-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-aop\1.5.1.RELEASE\spring-boot-starter-aop-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-aop\4.3.6.RELEASE\spring-aop-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\aspectj\aspectjweaver\1.8.9\aspectjweaver-1.8.9.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-core\4.3.6.RELEASE\spring-core-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\1.5.1.RELEASE\spring-boot-starter-tomcat-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.11\tomcat-embed-core-8.5.11.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.11\tomcat-embed-el-8.5.11.jar;C:\Users\Administrator\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.11\tomcat-embed-websocket-8.5.11.jar;C:\Users\Administrator\.m2\repository\org\springframework\boot\spring-boot-starter-data-redis\1.5.1.RELEASE\spring-boot-starter-data-redis-1.5.1.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\data\spring-data-redis\1.8.0.RELEASE\spring-data-redis-1.8.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\data\spring-data-keyvalue\1.2.0.RELEASE\spring-data-keyvalue-1.2.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\data\spring-data-commons\1.13.0.RELEASE\spring-data-commons-1.13.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-oxm\4.3.6.RELEASE\spring-oxm-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\spring-context-support\4.3.6.RELEASE\spring-context-support-4.3.6.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.22\jcl-over-slf4j-1.7.22.jar;C:\Users\Administrator\.m2\repository\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;C:\Users\Administrator\.m2\repository\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;C:\Users\Administrator\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-starter\1.1.1\mybatis-spring-boot-starter-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\1.1.1\mybatis-spring-boot-autoconfigure-1.1.1.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis\3.4.0\mybatis-3.4.0.jar;C:\Users\Administrator\.m2\repository\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;C:\Users\Administrator\.m2\repository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;C:\Users\Administrator\.m2\repository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;C:\Users\Administrator\.m2\repository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;C:\Users\Administrator\.m2\repository\com\github\sgroschupf\zkclient\0.1\zkclient-0.1.jar;C:\Users\Administrator\.m2\repository\org\apache\zookeeper\zookeeper\3.3.3\zookeeper-3.3.3.jar;C:\Users\Administrator\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar;C:\Users\Administrator\.m2\repository\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-swagger-ui\2.6.0\springfox-swagger-ui-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-spring-web\2.6.0\springfox-spring-web-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-swagger2\2.6.0\springfox-swagger2-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\swagger\swagger-annotations\1.5.10\swagger-annotations-1.5.10.jar;C:\Users\Administrator\.m2\repository\io\swagger\swagger-models\1.5.10\swagger-models-1.5.10.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-spi\2.6.0\springfox-spi-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-core\2.6.0\springfox-core-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-schema\2.6.0\springfox-schema-2.6.0.jar;C:\Users\Administrator\.m2\repository\io\springfox\springfox-swagger-common\2.6.0\springfox-swagger-common-2.6.0.jar;C:\Users\Administrator\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Administrator\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;C:\Users\Administrator\.m2\repository\org\springframework\plugin\spring-plugin-core\1.2.0.RELEASE\spring-plugin-core-1.2.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\springframework\plugin\spring-plugin-metadata\1.2.0.RELEASE\spring-plugin-metadata-1.2.0.RELEASE.jar;C:\Users\Administrator\.m2\repository\org\mapstruct\mapstruct\1.0.0.Final\mapstruct-1.0.0.Final.jar;C:\Users\Administrator\.m2\repository\com\alibaba\druid\1.0.26\druid-1.0.26.jar;C:\Users\Administrator\.m2\repository\mysql\mysql-connector-java\5.1.40\mysql-connector-java-5.1.40.jar;C:\Users\Administrator\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\Administrator\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\Administrator\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.library.path=D:\Program Files\Java\jdk1.8.0_144\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jre1.8.0_144/bin/server;D:/Program Files/Java/jre1.8.0_144/bin;D:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\ProgramData\Oracle\Java\javapath;D:\oracle11g-express\app\oracle\product\11.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Java\jdk1.8.0_144\bin;D:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Program Files\IDM Computer Solutions\UltraCompare;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;D:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;D:\software\eclipse;;.
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:java.compiler=<NA>
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:os.name=Windows 7
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:os.arch=amd64
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:os.version=6.1
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:user.name=Administrator
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:user.home=C:\Users\Administrator
+2017-08-20 19:55:01.552[INFO ][org.apache.zookeeper.ZooKeeper] Client environment:user.dir=C:\Users\Administrator\git\jiaoshoujia
+2017-08-20 19:55:01.553[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@52eaefeb
+2017-08-20 19:55:01.553[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@6c4271c1
+2017-08-20 19:55:01.554[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@239e6ed7
+2017-08-20 19:55:01.554[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@40e728ee
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@7b9507e9
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@53d802d
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@5c829aab
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@276b01b6
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@f914c3c
+2017-08-20 19:55:01.555[INFO ][org.apache.zookeeper.ZooKeeper] Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=10000 watcher=com.jst.demo.zklock.DistributedLock@5710420b
+2017-08-20 19:55:01.721[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.722[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.723[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.728[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.729[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.729[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.729[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.729[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.730[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.730[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.730[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.731[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.732[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.733[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.733[INFO ][org.apache.zookeeper.ClientCnxn] Opening socket connection to server /127.0.0.1:2181
+2017-08-20 19:55:01.734[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.735[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.735[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.735[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.736[INFO ][org.apache.zookeeper.ClientCnxn] Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+2017-08-20 19:55:01.747[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050000, negotiated timeout = 10000
+2017-08-20 19:55:01.750[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.755[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050001, negotiated timeout = 10000
+2017-08-20 19:55:01.757[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050002, negotiated timeout = 10000
+2017-08-20 19:55:01.756[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.758[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.759[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050003, negotiated timeout = 10000
+2017-08-20 19:55:01.760[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.763[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050004, negotiated timeout = 10000
+2017-08-20 19:55:01.763[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.765[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050005, negotiated timeout = 10000
+2017-08-20 19:55:01.766[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.776[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050006, negotiated timeout = 10000
+2017-08-20 19:55:01.792[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050007, negotiated timeout = 10000
+2017-08-20 19:55:01.792[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050009, negotiated timeout = 10000
+2017-08-20 19:55:01.792[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.792[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.792[INFO ][org.apache.zookeeper.ClientCnxn] Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x15dff7ee2050008, negotiated timeout = 10000
+2017-08-20 19:55:01.793[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.794[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】成功连接上ZK服务器
+2017-08-20 19:55:01.807[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】节点创建成功, Path: /disLocks, content: 该节点由线程3创建
+2017-08-20 19:55:01.813[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】创建锁路径:/disLocks/sub0000000000
+2017-08-20 19:55:01.825[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】子节点中，我果然是老大/disLocks/sub0000000000
+2017-08-20 19:55:01.827[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:01.831[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】创建锁路径:/disLocks/sub0000000001
+2017-08-20 19:55:01.835[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】获取子节点中，排在我前面的/disLocks/sub0000000000
+2017-08-20 19:55:01.843[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】创建锁路径:/disLocks/sub0000000003
+2017-08-20 19:55:01.843[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】创建锁路径:/disLocks/sub0000000002
+2017-08-20 19:55:01.850[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】获取子节点中，排在我前面的/disLocks/sub0000000002
+2017-08-20 19:55:01.852[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】获取子节点中，排在我前面的/disLocks/sub0000000001
+2017-08-20 19:55:01.855[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】创建锁路径:/disLocks/sub0000000004
+2017-08-20 19:55:01.857[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】创建锁路径:/disLocks/sub0000000005
+2017-08-20 19:55:01.859[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】获取子节点中，排在我前面的/disLocks/sub0000000004
+2017-08-20 19:55:01.859[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】获取子节点中，排在我前面的/disLocks/sub0000000003
+2017-08-20 19:55:01.862[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】创建锁路径:/disLocks/sub0000000006
+2017-08-20 19:55:01.863[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】创建锁路径:/disLocks/sub0000000007
+2017-08-20 19:55:01.865[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】获取子节点中，排在我前面的/disLocks/sub0000000006
+2017-08-20 19:55:01.866[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】获取子节点中，排在我前面的/disLocks/sub0000000005
+2017-08-20 19:55:01.872[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】创建锁路径:/disLocks/sub0000000008
+2017-08-20 19:55:01.873[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】获取子节点中，排在我前面的/disLocks/sub0000000007
+2017-08-20 19:55:01.873[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】创建锁路径:/disLocks/sub0000000009
+2017-08-20 19:55:01.875[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】获取子节点中，排在我前面的/disLocks/sub0000000008
+2017-08-20 19:55:03.827[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】删除本节点：/disLocks/sub0000000000
+2017-08-20 19:55:03.836[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:03.840[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050000 closed
+2017-08-20 19:55:03.840[INFO ][com.jst.demo.zklock.DistributedLock] 【第3个线程】释放连接
+2017-08-20 19:55:03.840[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:03.840[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】子节点中，我果然是老大/disLocks/sub0000000001
+2017-08-20 19:55:03.843[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:05.844[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】删除本节点：/disLocks/sub0000000001
+2017-08-20 19:55:05.856[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:05.859[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】子节点中，我果然是老大/disLocks/sub0000000002
+2017-08-20 19:55:05.862[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050008 closed
+2017-08-20 19:55:05.862[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:05.862[INFO ][com.jst.demo.zklock.DistributedLock] 【第1个线程】释放连接
+2017-08-20 19:55:05.862[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:07.862[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】删除本节点：/disLocks/sub0000000002
+2017-08-20 19:55:07.873[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:07.877[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050006 closed
+2017-08-20 19:55:07.877[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】子节点中，我果然是老大/disLocks/sub0000000003
+2017-08-20 19:55:07.878[INFO ][com.jst.demo.zklock.DistributedLock] 【第9个线程】释放连接
+2017-08-20 19:55:07.879[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:07.880[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:09.880[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】删除本节点：/disLocks/sub0000000003
+2017-08-20 19:55:09.891[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:09.894[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】子节点中，我果然是老大/disLocks/sub0000000004
+2017-08-20 19:55:09.896[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:09.897[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050007 closed
+2017-08-20 19:55:09.898[INFO ][com.jst.demo.zklock.DistributedLock] 【第4个线程】释放连接
+2017-08-20 19:55:09.898[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:11.897[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】删除本节点：/disLocks/sub0000000004
+2017-08-20 19:55:11.899[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:11.901[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】子节点中，我果然是老大/disLocks/sub0000000005
+2017-08-20 19:55:11.903[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050009 closed
+2017-08-20 19:55:11.903[INFO ][com.jst.demo.zklock.DistributedLock] 【第2个线程】释放连接
+2017-08-20 19:55:11.903[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:11.903[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:13.903[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】删除本节点：/disLocks/sub0000000005
+2017-08-20 19:55:13.906[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:13.909[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】子节点中，我果然是老大/disLocks/sub0000000006
+2017-08-20 19:55:13.912[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050005 closed
+2017-08-20 19:55:13.912[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:13.912[INFO ][com.jst.demo.zklock.DistributedLock] 【第6个线程】释放连接
+2017-08-20 19:55:13.912[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:15.913[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】删除本节点：/disLocks/sub0000000006
+2017-08-20 19:55:15.918[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:15.928[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050004 closed
+2017-08-20 19:55:15.928[INFO ][com.jst.demo.zklock.DistributedLock] 【第5个线程】释放连接
+2017-08-20 19:55:15.928[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:15.930[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】子节点中，我果然是老大/disLocks/sub0000000007
+2017-08-20 19:55:15.938[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:17.939[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】删除本节点：/disLocks/sub0000000007
+2017-08-20 19:55:17.949[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:17.953[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】子节点中，我果然是老大/disLocks/sub0000000008
+2017-08-20 19:55:17.953[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050003 closed
+2017-08-20 19:55:17.954[INFO ][com.jst.demo.zklock.DistributedLock] 【第7个线程】释放连接
+2017-08-20 19:55:17.954[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:17.961[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:19.961[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】删除本节点：/disLocks/sub0000000008
+2017-08-20 19:55:19.965[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】收到情报，排我前面的家伙已挂，我是不是可以出山了？
+2017-08-20 19:55:19.966[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】子节点中，我果然是老大/disLocks/sub0000000009
+2017-08-20 19:55:19.968[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050002 closed
+2017-08-20 19:55:19.968[INFO ][com.jst.demo.zklock.DistributedLock] 【第8个线程】释放连接
+2017-08-20 19:55:19.968[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:19.968[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】获取锁成功，赶紧干活！
+2017-08-20 19:55:21.969[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】删除本节点：/disLocks/sub0000000009
+2017-08-20 19:55:21.984[INFO ][org.apache.zookeeper.ZooKeeper] Session: 0x15dff7ee2050001 closed
+2017-08-20 19:55:21.984[INFO ][com.jst.demo.zklock.DistributedLock] 【第10个线程】释放连接
+2017-08-20 19:55:21.984[INFO ][org.apache.zookeeper.ClientCnxn] EventThread shut down
+2017-08-20 19:55:21.984[INFO ][com.jst.demo.zklock.DistributedLock] 所有线程运行结束!
